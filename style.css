@@ -4,7 +4,7 @@
 }
 .nav_content{
     display: flex;
-    background-color: aquamarine;
+    background-color: rgb(163, 250, 221);
     justify-content: space-between;
     text-align: center;
 }
