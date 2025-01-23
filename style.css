@@ -5,12 +5,15 @@
 .nav_content{
     display: flex;
     background-color: rgb(163, 250, 221);
-    justify-content: space-between;
-    text-align: center;
+
 }
 .nav_content ul li{
     list-style: none;
 }
 .nav_content ul a{
-    text-decoration: none;
+    text-decoration: none; 
+}
+.banner_btn{
+    padding: 10ox 12px;
+   
 }
