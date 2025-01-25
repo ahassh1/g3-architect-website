@@ -1,19 +1,36 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 .nav_content{
     display: flex;
     background-color: rgb(163, 250, 221);
-
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
 }
-.nav_content ul li{
-    list-style: none;
+.nav_content ul{
+    display: flex;
+}  
+.nav_content li{
+    list-style: none; 
+    margin-right: 40px;
+    text-align: center;
+    padding: 15px 0;
+    
 }
 .nav_content ul a{
     text-decoration: none; 
+    color: black;
+    font-size: 20px;
+  
 }
-.banner_btn{
-    padding: 10ox 12px;
-   
+.nav_btn{
+    padding: 12px 24px;
+    font-size: 15px;
+    background-color: rgb(255, 0, 0);
+    color: whitesmoke;
 }
+
+
