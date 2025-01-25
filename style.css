@@ -1,36 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: "Work Sans", serif;
+}
+/* this is a navbar it's without a margin property */
 .nav_content{
     display: flex;
-    background-color: rgb(163, 250, 221);
+    background-color: rgba(163, 250, 221, 0.185);
     align-items: center;
     justify-content: space-between;
-    padding: 20px 100px;
+    padding: 15px 100px;
 }
 .nav_content ul{
     display: flex;
 }  
 .nav_content li{
     list-style: none; 
-    margin-right: 40px;
+    padding-right: 42px;
     text-align: center;
-    padding: 15px 0;
-    
+    padding-top: 12px;
 }
 .nav_content ul a{
     text-decoration: none; 
     color: black;
     font-size: 20px;
-  
 }
 .nav_btn{
-    padding: 12px 24px;
+    padding: 13px 26px;
     font-size: 15px;
-    background-color: rgb(255, 0, 0);
+    background-color: orangered;
     color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+}
+
+/* banner part start */
+.banner_content{
+    text-align: center;
+    margin-top: 70px;
+  
+}
+.banner_content h1{
+    font-size: 45px;
+    font-weight: 700;
+   
+}
+.banner_content p{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 25px 0;
+}
+.banner_btn button{
+    padding: 14px 28px;
+    font-size: 15px;
+    background-color: orangered;
+   border-radius: 5px;
+   border: none;
+   color: whitesmoke;
+}
+.banner_img{
+    text-align: center;
+    margin: 50px 0 100px 0;
 }
 
 
