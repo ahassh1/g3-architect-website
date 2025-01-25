@@ -7,6 +7,7 @@
 }
 body{
     font-family: "Work Sans", serif;
+    overflow-x: hidden;
 }
 /* this is a navbar it's without a margin property */
 .nav_content{
@@ -43,29 +44,58 @@ body{
 .banner_content{
     text-align: center;
     margin-top: 70px;
-  
 }
 .banner_content h1{
     font-size: 45px;
-    font-weight: 700;
-   
+    font-weight: 700;   
 }
 .banner_content p{
     font-size: 15px;
     font-weight: 400;
     margin: 25px 0;
 }
-.banner_btn button{
+.banner_btn button,  .features_btn{
     padding: 14px 28px;
     font-size: 15px;
     background-color: orangered;
-   border-radius: 5px;
-   border: none;
-   color: whitesmoke;
-}
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+    }
 .banner_img{
     text-align: center;
     margin: 50px 0 100px 0;
+    width: 100%;
+}
+header{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+/* nav to banner responsive */
+@media only screen and (max-width:576px){
+     html,body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+     }
+}
+.features_img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.features_container{
+    display: flex;
+    align-items: center;
+    max-width: 1166px;
+    margin: 0 auto;
+   
+.features_content{
+  margin-left: 50px;
+ 
 }
 
 
